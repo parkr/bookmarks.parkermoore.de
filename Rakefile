@@ -1,6 +1,6 @@
 task :preview do
   puts "Starting to watch source with Jekyll and Compass. Starting Rack on port 4000"
-  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll serve -w")
+  jekyllPid = Process.spawn("jekyll serve -w")
   compassPid = Process.spawn("compass watch")
 
   trap("INT") {
