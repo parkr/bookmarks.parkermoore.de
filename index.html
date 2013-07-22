@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+Latest 10 bookmarks:
+
+{% for bookmark in site.posts %}
+  {% include bookmark_inline.html %}
+{% endfor %}
