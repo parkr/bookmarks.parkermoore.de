@@ -1,0 +1,8 @@
+---
+layout: bookmark
+title: ~~ Courses of Study 2010-2011
+date: '1970-01-01T01:00:00+01:00'
+link: http://courses.cuinfo.cornell.edu/CoScourses.php?college=ALS=Information+Science
+categories: Coursework
+
+---
