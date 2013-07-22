@@ -3,6 +3,7 @@
 require 'nokogiri'
 require 'stringex'
 require 'uri'
+require 'cgi'
 require 'time'
 require 'yaml'
 
@@ -24,7 +25,7 @@ class Bookmark
   end
 
   def slug
-    URI.escape(data[:title].to_url).gsub(/\%[a-zA-Z0-9]+/, '').to_url
+    CGI.escape(URI.escape(data[:title].to_url).gsub(/\%[a-zA-Z0-9]+/, '')).to_url
   end
 
   def front_matter
