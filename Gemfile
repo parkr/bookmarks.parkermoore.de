@@ -1,4 +1,3 @@
 source "https://rubygems.org"
 
-gem 'compass'
-gem 'jekyll'
+gem 'guard-jekyll-plus', github: 'parkr/guard-jekyll-plus', branch: 'naming-fixes'
