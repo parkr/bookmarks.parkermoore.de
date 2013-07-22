@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<article>
+  <header><h1 class="bookmark-title">{{ page.title }}</h1></header>
+  <p class="bookmark-date">
+    Added on {{ page.date | date: "%Y-%m-%d" }} at {{ page.date | date: "%H:%M:%S" }}
+  </p>
+  <p class="bookmark-categories">{{ page.categories | array_to_sentence_strings }}</p>
+</article>
+
+<a href="{{ site.url }}/">Go back home</a>
