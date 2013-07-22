@@ -1,8 +1,0 @@
----
-layout: bookmark
-title: RubyMonk
-date: '1970-01-01T01:00:00+01:00'
-link: http://rubymonk.com/chapters/1-collection/lessons/34-arrays-the-basics
-categories: INFO2040
-
----

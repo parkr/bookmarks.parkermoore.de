@@ -1,8 +1,0 @@
----
-layout: bookmark
-title: CS2110 F11 Home
-date: '1970-01-01T01:00:00+01:00'
-link: http://www.cs.cornell.edu/courses/cs2110/2011fa/
-categories: CS4999
-
----

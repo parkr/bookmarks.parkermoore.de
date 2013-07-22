@@ -1,8 +1,0 @@
----
-layout: bookmark
-title: Layer Styles
-date: '1970-01-01T01:00:00+01:00'
-link: http://layerstyles.org/
-categories: JS
-
----

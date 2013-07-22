@@ -1,8 +1,0 @@
----
-layout: bookmark
-title: ~~Transfer Student Information
-date: '1970-01-01T01:00:00+01:00'
-link: http://www.cals.cornell.edu/cals/current/registrar/current-students/transfer/
-categories: Class Notes
-
----
